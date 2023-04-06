@@ -5,7 +5,7 @@ Hướng dẫn thao tác đơn giản với nginx bằng Dockerfile
 2. Chuyển vào thư mục test: 
   cd test
 3. Kết nối trang github: 
-  git clone https://github.com/LieDestiny/DockerNginx/tree/main
+  git clone https://github.com/LieDestiny/DockerNginx
  4. Build image: 
   docker build -t mynginx .
  5. Build container: 
