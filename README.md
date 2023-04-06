@@ -9,6 +9,6 @@ Hướng dẫn thao tác đơn giản với nginx bằng Dockerfile
  4. Build image: 
   docker build -t mynginx .
  5. Build container: 
-  docker run -it -p 80:80 mynginx
+  docker run -d -p 80:80 mynginx
  6. Kiểm tra container: 
   docker ps
